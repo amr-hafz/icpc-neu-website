@@ -1,0 +1,19 @@
+@media (max-width: 900px) {
+  .desktop-nav.mobile-open {
+    display: flex;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    gap: 0;
+    padding: 12px 6vw 18px;
+    background: var(--cream);
+    border-bottom: 1px solid var(--line);
+    box-shadow: 0 12px 20px rgba(13, 53, 88, .06);
+  }
+
+  .desktop-nav.mobile-open a {
+    padding: 10px 0;
+  }
+}

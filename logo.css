@@ -1,0 +1,39 @@
+.site-logo {
+  display: block;
+  width: 132px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.footer-logo {
+  display: block;
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+}
+
+.footer-brand {
+  align-items: flex-start;
+}
+
+.copyright {
+  color: #91a8b8;
+  font-size: .65rem;
+  letter-spacing: .04em;
+  white-space: nowrap;
+}
+
+@media (max-width: 560px) {
+  .site-logo {
+    width: 118px;
+    height: 52px;
+  }
+
+  .footer-logo {
+    width: 140px;
+  }
+
+  .copyright {
+    white-space: normal;
+  }
+}
